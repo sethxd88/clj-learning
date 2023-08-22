@@ -37,6 +37,8 @@
 (def triangle1 (create-triangle 4))
 (print-triangle triangle1)
 
+(comment
+  (print-triangle triangle1))
 ;; (defn draw-triangle [triangle]
 ;;     (let [top-bottom-row-seq (repeat (get-width triangle) "*")
 ;;           top-bottom-row-text (apply str top-bottom-row-seq)
